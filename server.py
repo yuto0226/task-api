@@ -6,14 +6,17 @@ CORS(app, supports_credentials=True)
 
 datas = [
     {
+        "id":"01",
         "title": "用 AXIOS 串接API",
         "content": "將任務改成若可以連接得到伺服端，則使用伺服端資料修改。"
     },
     {
+        "id": "02",
         "title": "實作 Flask RESTful API",
         "content": "用 Flask 實作 CRUD"
     },
     {
+        "id": "03",
         "title": "完成 Vue.js 前端頁面",
         "content": "基本 TODO LIST 頁面"
     },
